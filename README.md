@@ -67,3 +67,6 @@ Vardas    Pavardas       3.53
 
 # Įgyvendinimas
 Ši pirminė versija yra įgyvendinta tiek standartinio masyvo, tiek vektorių pagrindu, kaip siūlyta užduotyje.
+
+# Patobulinimas
+Ši programos versija gali nuskaityti duomenis iš failo.
