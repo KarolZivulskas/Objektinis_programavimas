@@ -6,6 +6,6 @@
 using std::vector;
 
 namespace Math {
-	double VidurkioSkaiciavimas(vector<int>&); //findMean
-	double MedianosPaieska(vector<int>&);//findMedian
+	double VidurkioSkaiciavimas(vector<int>&);
+	double MedianosPaieska(vector<int>&);
 }

@@ -29,12 +29,12 @@ using std::stringstream;
 using std::vector;
 
 namespace Students {
-	void Filtruoti(const string&); //filter
-	void GeneruotiIrasus(int); //generateRecords
-	void SpausdintiFormatuota(vector<Student::Studentas>&, const string&); //printFormatted
-	void SutvarkytiStudentus(vector<Student::Studentas>&, const string&); //processStudents
-	void SkaitytiIsFailo(const string&, vector<Student::Studentas>&); //readFromFile
-	void Issaugoti(vector<Student::Studentas>&, const string&); //save
-	void RikiuotiPagalGalutiniMazejant(vector<Student::Studentas>&); //sortbyfinalgradedescending
-	void RikiuotiPagalVardaDidejant(vector<Student::Studentas>&); //sortbynameascending
+	void Filtruoti(const string&);
+	void GeneruotiIrasus(int);
+	void SpausdintiFormatuota(vector<Student::Studentas>&, const string&);
+	void SutvarkytiStudentus(vector<Student::Studentas>&, const string&);
+	void SkaitytiIsFailo(const string&, vector<Student::Studentas>&);
+	void Issaugoti(vector<Student::Studentas>&, const string&);
+	void RikiuotiPagalGalutiniMazejant(vector<Student::Studentas>&);
+	void RikiuotiPagalVardaDidejant(vector<Student::Studentas>&);
 }

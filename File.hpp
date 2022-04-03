@@ -19,13 +19,13 @@ using std::stringstream;
 using std::vector;
 
 namespace File {
-	bool ArEgzistuojaFailas(const string&); //fileExists
-	string getBaseName(const string&); //getBaseName
-	stringstream GrazintiBuferi(const string&); // getBuffer
-	vector<string> FailuPavadinimaiAplanke(const string&, const string&); //getFilenamesInFolder
-	bool ArYraFailas(const string&);// __unused bool isFile
-	bool ArYraAplankas(const string&); // isFolder
-	void IssaugotiBuferi(const string&, stringstream&); // saveBuffer
-	string PasirinktiFailaFoldery(const string&, const string&); //selectFileInFolder
-	vector<string> PasirinktiFailusFoldery(const string&, const string&);//selectFilesInFolder
+	bool ArEgzistuojaFailas(const string&);
+	string getBaseName(const string&);
+	stringstream GrazintiBuferi(const string&);
+	vector<string> FailuPavadinimaiAplanke(const string&, const string&);
+	[[maybe_unused]] bool ArYraFailas(const string&);
+	bool ArYraAplankas(const string&);
+	void IssaugotiBuferi(const string&, stringstream&);
+	string PasirinktiFailaFoldery(const string&, const string&);
+	vector<string> PasirinktiFailusFoldery(const string&, const string&);
 }

@@ -50,7 +50,7 @@ vector<string> File::FailuPavadinimaiAplanke(const string &aplankoVieta, const s
   return failuPavadinimai;
 }
 
-bool File::ArYraFailas(const string & failoVieta) {
+[[maybe_unused]] bool File::ArYraFailas(const string & failoVieta) {
   struct stat info {};
   if (stat(failoVieta.c_str(), &info) == 0) {
     if (info.st_mode & S_IFREG) {

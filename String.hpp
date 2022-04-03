@@ -3,5 +3,5 @@
 #include <string>
 
 namespace String {
-	bool ArTuriPriesaga(const std::string&, const std::string&); //hasSuffix
+	bool ArTuriPriesaga(const std::string&, const std::string&);
 }

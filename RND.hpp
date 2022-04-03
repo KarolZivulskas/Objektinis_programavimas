@@ -3,5 +3,5 @@
 #include <random>
 
 namespace RND {
-	int GeneruotiAtsitiktiniIntervale(int, int);//getIntegerInRange
+	int GeneruotiAtsitiktiniIntervale(int, int);
 }

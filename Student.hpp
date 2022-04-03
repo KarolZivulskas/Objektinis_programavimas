@@ -22,7 +22,7 @@ namespace Student {
         double pazymiuMed;
     };
 
-    double GalutinioSkaiciavimas(double, double); //findFinalGrade
-    bool ArNepasiseke(Studentas&); //isLoser
-    void SutvarkytiStudenta(Studentas*, const string&); //processStudent
+    double GalutinioSkaiciavimas(double, double);
+    bool ArNepasiseke(Studentas&);
+    void SutvarkytiStudenta(Studentas*, const string&);
 }
