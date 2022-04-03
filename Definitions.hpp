@@ -1,0 +1,16 @@
+#pragma once
+
+#define ARRAY_TYPE TYPE_DEQUE
+#define TYPE_DEQUE 1
+#define TYPE_LIST 2
+#define TYPE_VECTOR 3
+
+#define DATA_FOLDER "./data/"
+#define GRADE_MIN 1
+#define GRADE_MAX 10
+
+#define RESULT_TYPE_MEAN "RESULT_TYPE_MEAN"
+#define RESULT_TYPE_MEDIAN "RESULT_TYPE_MEDIAN"
+#define RESULT_TYPE_BOTH "RESULT_TYPE_BOTH"
+
+#define TIME_PRECISION 5
